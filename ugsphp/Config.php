@@ -81,7 +81,7 @@ class Config {
 	 * @constant(IsLoginRequired)
 	 * @var Boolean
 	 */
-	const IsLoginRequired = false;
+	const IsLoginRequired = true;
 
 	/**
 	 * File names used for song list cache files (only if "UseDetailedLists" enabled).
@@ -99,20 +99,6 @@ class Config {
 			'pass' => '12345',
 			'name' => 'Almighty Admin',
 			'isActive' => true,
-			'mayEdit' => true
-		),
-		array(
-			'user' => 'guest',
-			'pass' => '12345',
-			'name' => 'Honored Guest',
-			'isActive' => true,
-			'mayEdit' => false
-		),
-		array(
-			'user' => 'jake',
-			'pass' => 'ukulelecake',
-			'name' => 'Jake S.',
-			'isActive' => false,
 			'mayEdit' => true
 		)
 	);
