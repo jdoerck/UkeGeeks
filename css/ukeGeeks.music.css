@@ -111,6 +111,20 @@
 .ie .ugs-source-wrap pre {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 }
+
+.ugsComment {
+	font-weight: bold !important;
+	margin: 10px 5px 20px 0 !important;
+	padding: 5px 5px 5px 5px !important;
+	border: 0 !important;
+	text-indent: 0 !important;
+	font-size: 12px !important;
+	background-color: #999;
+	color: white !important;
+	font-style: normal !important;
+	font-family: Verdana, Arial, Helvetica, sans-serif !important;
+}
+
 /* CHORUS BLOCK
   ------------------------------ */
 .ugs-song-wrap .ugsChorus {
